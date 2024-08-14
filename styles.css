@@ -1,0 +1,327 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.courses {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.course-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+    flex: 0 0 300px;
+    padding: 20px;
+    text-align: left;
+}
+
+.course-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.course-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.course-card p {
+    font-size: 16px;
+    color: #333;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.scroll-btn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.scroll-btn:hover {
+    background-color: #3700b3;
+}
+
+
+
+
+
+
+
+.course-page {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course-details {
+    flex: 2;
+    padding: 20px;
+}
+
+.course-sidebar {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.course-sidebar img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.tags .tag {
+    display: inline-block;
+    background-color: #6200ea;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.offers {
+    background-color: #e3f2fd;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.offer-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+.coupon-code {
+    background-color: #ff9800;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.tabs {
+    display: flex;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    color: #6200ea;
+    font-weight: bold;
+}
+
+.tab.active {
+    border-bottom: 2px solid #6200ea;
+}
+
+.tab-content {
+    padding: 10px;
+}
+
+.price {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.coupon-info {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.apply-coupon {
+    color: #6200ea;
+    text-decoration: none;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #6200ea;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .course-page {
+        flex-direction: column;
+    }
+
+    .course-sidebar {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+.course-container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.course {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.course img {
+    width: 120px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.course-info {
+    flex: 1;
+}
+
+.course-info h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.tags {
+    margin: 10px 0;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #777;
+}
+
+.discounted-price {
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.discount {
+    background-color: #ff5722;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.coupon-button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.coupon-button:hover {
+    background-color: #e68900;
+}
