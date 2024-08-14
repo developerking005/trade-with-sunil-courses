@@ -10,7 +10,7 @@
     <div class="payment-container">
         <h2>Make a Payment</h2>
         
-        <form class="payment-form">
+        <form class="payment-form" action="upload.html">
             <div class="form-group">
                 <label for="full-name">Full Name</label>
                 <input type="text" id="full-name" name="full-name" required>
@@ -27,14 +27,14 @@
                 <label for="amount">Amount</label>
                 <input type="text" id="amount" name="amount" required>
             </div>
-            
-            <button type="submit" class="submit-button">Pay Now</button>
+            <div class="qr-code-section">
+                <h3>Scan to Pay And Take Screen Shot</h3>
+                <img src="./Payment-Scanner.PNG" alt="Payment QR Code">
+            </div>            
+            <button type="submit" class="submit-button">Upload Screen Shot</button>
         </form>
         
-        <div class="qr-code-section">
-            <h3>Or Scan to Pay</h3>
-            <img src="./Phone_pay.jpeg" alt="Payment QR Code">
-        </div>
+        
     </div>
 </body>
 </html>
